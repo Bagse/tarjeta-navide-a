@@ -132,7 +132,8 @@ input #open{
 .text{
     position: absolute;
     color: white;
-    font-family: brush script mt;
+    font-family: 'Alex Brush', cursive;
+    font-weight: bold;
     top: 260px;
     width: 200px;
     text-align: center;
@@ -141,6 +142,7 @@ input #open{
 
 .text::before{
     content: "Feliz Navidad!";
+    font-weight: bold;
     position: absolute;
     width: 80px;
     color: #333;
@@ -262,11 +264,12 @@ input #open{
 .title{
     position: absolute;
     color: #ffba08;
-    font-size: 30px;
-    font-family: brush script mt;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Alex Brush', cursive;
     line-height: 25px;
     text-align: center;
-    top: 40px;
+    top: 35px;
     width: 200px;
 }
 
@@ -274,12 +277,12 @@ input #open{
     position: absolute;
     width: 150px;
     text-align: center;
-    font-family: brush script mt;
+    font-family: 'Alex Brush', cursive;
     color: white;
     line-height: 18px;
     font-size: 20px;
     height: 300px;
-    top: 32%;
+    top: 30%;
     left: 25px;
 }
 
