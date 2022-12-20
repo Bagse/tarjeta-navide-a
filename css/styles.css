@@ -360,11 +360,7 @@ i{
 
 
 /* musica */
-.musica{
+#musica{
     display: flex;
     margin-top: 75px;
-}
-.music{
-    
-    color: lightblue;
 }
